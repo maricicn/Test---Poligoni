@@ -18,8 +18,8 @@ namespace ConsoleApp1
         public Tacka Centriraj()
         {
             Tacka Nova = new Tacka();
-            Nova.x = pocetak.x - kraj.x;
-            Nova.y = pocetak.y - kraj.y;
+            Nova.x = kraj.x - pocetak.x;
+            Nova.y = kraj.y - pocetak.y;
             return Nova;
         }
         public static double Vektorski(Vektor A, Vektor B)

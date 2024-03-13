@@ -21,9 +21,9 @@ namespace ConsoleApp1
                 pom.y = Convert.ToDouble(Console.ReadLine());
                 prviP.teme[i] = pom;
             }
-            Vektor BD = new Vektor(prvi.teme[1], prvi.teme[3]);
-            Tacka A = prvi.teme[0];
-            Tacka C = prvi.teme[2];
+            Vektor BD = new Vektor(prviP.teme[1], prviP.teme[3]);
+            Tacka A = prviP.teme[0];
+            Tacka C = prviP.teme[2];
             Funkcije.SIS(BD, A, C);*/
 
             /*Drugi*/
@@ -100,8 +100,8 @@ namespace ConsoleApp1
                 pom.y = Convert.ToDouble(Console.ReadLine());
                 cetvrtiP.teme[i] = pom;
             }
-            Poligon.Konveksan(cetvrtiP);
-            */
+            Poligon.Konveksan(cetvrtiP);*/
+                    
             /*Peti*/
             string alfabet = "ABCDEFGH";
             int n;
