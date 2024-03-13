@@ -116,6 +116,9 @@ namespace ConsoleApp1
                 cetvrtiP.teme[i] = pom;
             }
             Console.WriteLine(Poligon.Povrsina(cetvrtiP));
+
+
+            
         }
     }
 }
