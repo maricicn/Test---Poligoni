@@ -39,6 +39,7 @@ namespace ConsoleApp1
             }
             if (povrsina < 0) return (-povrsina) / 2;
             else return povrsina / 2;
+
         }
     }
 }
